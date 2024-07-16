@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+}
+
+/* nav */
+nav > a > i {
+  color: white;
+  font-size: 12px;
+  padding: 11px 14px;
+}
+
+nav > a > i:hover {
+  color: black;
+  background-color: lightgray;
+}
+
+/* header */
+.header {
+  padding: 48px 0;
+}
+
+.header > h1 {
+  font-size: 48px !important;
+  margin: 10px 0;
+}
+
+.header > h6 {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+/* image header */
+@media (max-width: 576px) {
+  .image_header > div {
+    top: 60px;
+  }
+}
+
+.image_header div .btn {
+  border: none;
+  padding: 12px 24px;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: black;
+  border-radius: 0;
+  text-transform: uppercase;
+}
+
+.image_header > div .btn:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* sidebar blog post section */
+.sidebar_blog_post:hover {
+  background-color: rgba(211, 171, 171, 0.8);
+}
+
+/* subscribe section styling */
+.subscribe div button:hover {
+  background-color: rgba(211, 171, 171, 0.8) !important;
+  color: black !important;
+}
+
+/* footer section styling */
+.footer > a > button {
+  background-color: black;
+  color: white;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.footer > a > button:hover,
+.subscribe_btn:hover {
+  background-color: rgba(211, 171, 171, 0.8);
+  color: black;
+}
+
+/* pop up styling */
+.pop_up {
+  background-color: rgba(39, 37, 37, 0.4);
+  top: 0;
+  display: none;
+}
+
+.pop_up > div {
+  width: 75%;
+}
+
+@media (max-width: 676px) {
+  .pop_up > div {
+    width: 98%;
+  }
+}
+
+@media (max-width: 476px) {
+  .pop_up > div {
+    padding:20px !important;
+  }
+}
+
+.subscribe_btn {
+  background-color: rgb(237, 35, 35);
+  color: white;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.fa-remove {
+  cursor: pointer;
+}
+
+
+
